@@ -1,15 +1,16 @@
 // pages/index.js
 'use client'
-import { MainProfile } from '@/components/main_profile'
-import { AboutMe } from '@/components/about_me'
-import Header from '@/components/header/index'
+import Profile from '@/components/profile'
+import DetailsCard from '@/components/details_card'
+import Topbar from '@/components/topbar'
 
 export default function Home() {
   return (
     <main>
+      <Topbar />
       <div className="container">
-        <MainProfile />
-        <AboutMe />
+        <Profile />
+        <DetailsCard />
       </div>
     </main>
   )

@@ -1,8 +1,8 @@
 'use client'
 
-import Header from "./header"
+import Header from "./menu"
 
-export const AboutMe = () => {
+const details_card = () => {
    return (
       <>
          <div className="profile-details">
@@ -36,3 +36,4 @@ export const AboutMe = () => {
       </>
    )
 }
+export default details_card;

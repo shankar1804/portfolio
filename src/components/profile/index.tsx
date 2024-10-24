@@ -1,8 +1,8 @@
 'use client'
 import Image from 'next/image'
-import profilePic from '../../public/profile.jpg'
+import profilePic from '../../../public/profile.jpg'
 
-export const MainProfile = () => {
+const profile = () => {
    return (
       <>
          <div className="sidebar">
@@ -29,3 +29,5 @@ export const MainProfile = () => {
       </>
    )
 }
+
+export default profile
